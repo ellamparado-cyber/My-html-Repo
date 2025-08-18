@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="descrition" content="..." />
+    <title>Document</title>
+    <style>
+      strong {
+        color: red;
+        font-style: normal;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Ang Ganda Ni <strong>Ella</strong></p>
+    <a href="comapany/about.html"> about me</a>
+    <a href="images/cherry.jpg" download>my cake</a>
+    <a href="#section-css">CSS</a>
+    <a href="https://google.com" target="blank">google</a>
+    <a href="mailto:ellamparado@gmail.com">emailme</a>
+    <h2>HTML</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestiae
+      expedita sed saepe cupiditate consequatur cumque harum necessitatibus
+      dolor corporis dignissimos odio laboriosam, eveniet aut nostrum
+      perferendis labore beatae officiis nihil quia vitae impedit quisquam?
+      Soluta quo odio libero. Officiis, iste nobis. Magnam dolor commodi,
+      voluptate porro explicabo aliquam. Nemo, doloribus cumque voluptatum sint
+      non vitae? Obcaecati, atque ab vel modi natus quo aliquid quia temporibus
+      iste similique fugiat voluptatum distinctio eveniet quaerat quisquam
+      dignissimos architecto! Deleniti laudantium harum, tenetur quidem totam
+      quis, est ipsum aliquid nulla sit culpa. Blanditiis possimus beatae, magni
+      illo iste enim commodi nemo id cum quibusdam magnam odio, sit illum nam
+      nobis doloremque iure veritatis non, asperiores et. Animi, possimus odio
+      perferendis odit architecto commodi ut suscipit necessitatibus tenetur
+      quod asperiores harum vel voluptatibus quos, rerum, aut laborum excepturi
+      exercitationem blanditiis. Nobis iure, qui, illo deleniti ullam sapiente
+      consequatur repudiandae repellendus vitae suscipit quo similique
+      cupiditate eius natus, magni vel cumque. Distinctio porro et qui
+      voluptates impedit assumenda esse voluptas animi eum cumque, saepe nihil,
+      rem deleniti laborum ducimus! Quo quis repellat nesciunt culpa sapiente
+      enim, aut dolores deserunt veritatis sunt voluptatem commodi molestiae
+      eius aliquam facilis, quasi porro eum similique eligendi ea sit delectus.
+    </p>
+    <h2 id="section-css">CSS</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum doloribus
+      alias eum eligendi beatae autem magnam incidunt sapiente numquam
+      accusantium impedit consequuntur, amet expedita, ea tenetur magni quos
+      temporibus ducimus eveniet dolorem! Vero laudantium culpa eligendi
+      assumenda? Autem dolore a nemo explicabo fuga reprehenderit magnam natus
+      quae! Esse incidunt beatae laboriosam ex unde repellendus natus magni
+      porro saepe libero perferendis voluptatum provident, architecto quam sunt
+      necessitatibus amet vel eveniet voluptatibus. Excepturi sapiente minima
+      voluptates qui dicta deserunt, cupiditate ducimus repellat unde, sint
+      voluptas magni nostrum esse a laborum voluptatem sed accusamus tenetur
+      possimus soluta. Nesciunt quibusdam fuga itaque maxime laudantium.
+    </p>
+    <a href="#">Jump to top</a><br />
+    <img src="images/yummy.jpg" alt="yummy cake" />
+
+    <!--unordered list -->
+    <ul>
+      <li>list</li>
+      <li>ganda</li>
+      <ul>
+        <li>list</li>
+        <li>pangit</li>
+      </ul>
+    </ul>
+    <!--ordered List -->
+    <ol>
+      <li>Kumain</li>
+      <li>matulog</li>
+    </ol>
+
+    <!--description-->
+    <dl style="border: 2px solid; background-color: aqua">
+      <dt>Gorgeous</dt>
+      <dd>
+        adjective. /ˈɡɔːdʒəs/ /ˈɡɔːrdʒəs/ (informal) very beautiful and
+        attractive; giving great pleasure synonym lovely.
+      </dd>
+    </dl>
+
+    <!--table-->
+    <h4>Hours</h4>
+    <table border="2" style="background-color: aqua">
+      <tr align="center" style="background-color: blue">
+        <th width="100">close</th>
+        <th width="100">monday</th>
+        <th width="100">tuesday</th>
+      </tr>
+      <tr align="center">
+        <td>8am</td>
+        <td>9am</td>
+        <td>10am</td>
+      </tr>
+    </table>
+
+    <!--button-->
+    <button
+      onclick="dosomething()"
+      style="
+        background-color: grey;
+        font-size: 25px;
+        color: aqua;
+        border-radius: 25px;
+      "
+    >
+      click me
+    </button>
+    <p id="greeting">hello</p>
+    <script>
+      function dosomething() {
+        document.getElementById('greeting').innerHTML = 'goodbye';
+      }
+    </script>
+    <p>This is normal Text</p>
+    <p>This is <b>bold</b> Text</p>
+    <p>This is <i>Italic</i> Text</p>
+    <p>This is <u>underlined</u> Text</p>
+    <p>This is <del>Deleted</del> Text</p>
+    <p>This is <small>Small</small> Text</p>
+    <p>This is <big>Big</big> Text</p>
+    <p>This is <sub>Subscript</sub> Text</p>
+    <p>This is <sup>Superscript</sup> Text</p>
+    <p>This is <tt>monospaced</tt> Text</p>
+    <p>This is <mark style="background-color: blue">mark</mark> Text</p>
+    <pre>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+   Incidunt fuga tenetur dolorum rerum similique iusto error 
+   <span style="background-color: aqua;">repellat nesciunt quas ea enim corrupti dolore sunt non 
+   nisi fugit libero dignissimos quaerat voluptatem, aperiam,
+   quia deserunt delectus. Blanditiis dignissimos nihil ullam 
+   nesciunt nemo hic eveniet distinctio velit, fugiat assumenda, 
+   officiis, ab consectetur.</span></pre>
+    <pre>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Inventore sint cumque ut quasi repellendus dicta sequi nobis
+     <div style="background-color: aquamarine;">amet iste, ipsum beatae consequuntur debitis magni quibusdam 
+     unde nesciunt mollitia voluptatem atque reprehenderit, eligendi
+      vero architecto hic temporibus. Nostrum tempora nam quae expedita 
+      consequuntur ipsum perspiciatis, nihil eius debitis, doloremque, nulla repellat!</div></pre>
+  </body>
+</html>

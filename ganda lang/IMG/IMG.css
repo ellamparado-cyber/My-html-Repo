@@ -1,0 +1,17 @@
+.image {
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 10px;
+  width: 200px;
+}
+.image .description {
+  text-align: center;
+  padding: 10px;
+}
+.image:hover {
+  border: 2px solid rgb(35, 34, 34);
+}
+.image img {
+  width: 200px;
+  height: auto;
+}
