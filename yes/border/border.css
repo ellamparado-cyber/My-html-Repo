@@ -1,0 +1,21 @@
+h1 {
+  border: 3px solid blue;
+  border-radius: 10px;
+  color: red;
+}
+p {
+  color: blue;
+  border-bottom: 3px solid brown;
+  border-top: 3px solid green;
+  border-left: 3px dashed pink;
+  border-right: 3px dashed orange;
+}
+h2 {
+  text-shadow: 3px 5px 3px blue, -3px 5px 3px red;
+}
+#box1 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px 5px 3px black;
+  background-color: lightblue;
+}

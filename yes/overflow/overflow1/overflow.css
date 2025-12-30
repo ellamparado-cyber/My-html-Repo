@@ -1,0 +1,25 @@
+#scroll {
+  border: 3px solid;
+  height: 60px;
+  overflow: scroll;
+}
+#hidden {
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+  overflow: hidden;
+}
+#visible {
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+  overflow: visible;
+}
+#clip {
+  margin-left: 300px;
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  overflow: clip;
+}

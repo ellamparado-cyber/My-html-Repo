@@ -1,0 +1,36 @@
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+}
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline;
+}
+
+#GND {
+  background-color: aqua;
+  display: visibility;
+}
+#AMP {
+  background-color: aquamarine;
+  display: none;
+}
+.container {
+  background-color: rgb(34, 87, 135);
+  height: 100vh;
+}
+.box {
+  background-color: aliceblue;
+  border: 2px solid;
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding: 25px;
+  min-height: 50px;
+  text-align: center;
+  min-height: 50%;
+}

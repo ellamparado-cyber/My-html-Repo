@@ -1,0 +1,14 @@
+#float {
+  border: 5px solid;
+  display: flow-root;
+}
+#img1 {
+  float: left;
+  scroll-margin-right: 20px;
+  border-radius: 50px;
+}
+#img2 {
+  float: right;
+  margin-right: 20px;
+  border-radius: 50px;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Variable;
+  src: url(Edu_NSW_ACT_Cursive/EduNSWACTCursive-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Regular;
+  src: url(Edu_NSW_ACT_Cursive/static/EduNSWACTCursive-Regular.ttf);
+}
+.container {
+  overflow: auto;
+}
+#border {
+  width: 350px;
+  height: 250px;
+  border: 3px solid rgb(0, 149, 255);
+  border-left: 3px dashed orange;
+  border-right: 3px dashed green;
+  overflow: scroll;
+}
+#content {
+  display: flow-root;
+}
+#content img {
+  float: left;
+  border-radius: 250px;
+  margin-right: 10px;
+  position: fixed;
+}
+#content p {
+  font-family: Variable;
+}
